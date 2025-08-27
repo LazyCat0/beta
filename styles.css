@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "Comfortaa";
+    src: url(/src/comfortaa.ttf);
+}
+
+*{
+        font-family: Comfortaa;
+        color: black;
+        --background-color:  rgb(105, 133, 245), rgb(181, 43, 208);
+}
+html{
+    background: linear-gradient(left, var(--background-color));
+    background: -o-linear-gradient(left, var(--background-color));
+    background: -moz-linear-gradient(left, var(--background-color));
+    background: -webkit-linear-gradient(left, var(--background-color));
+    background-size: 2048px, 4096px;
+}
+#mainPart{
+    width: 900px;
+    height: 500px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.54);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    z-index: 1;
+    overflow-y: auto;
+}
+#content{
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    z-index: 1;
+    overflow-y: auto;
+}
+#navPart{
+    width: 800px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.54);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    z-index: 2;
+    text-align: center;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px, solid;
+    margin-top: 5px;
+}
+h1{
+    height: 30px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.54);
+    color: rgba(255, 255, 255, 0.466);
+    border-radius: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+}
+h2{
+    height: auto;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.54);
+    border-radius: 19cm;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+}
+p{
+    text-align: center;
+    font-size: large;
+}
